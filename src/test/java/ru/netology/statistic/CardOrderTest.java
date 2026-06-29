@@ -16,7 +16,7 @@ public class CardOrderTest {
     private WebDriver driver;
 
     @BeforeAll
-    static void setupAll() {
+    public static void setupAll() {
         WebDriverManager.chromedriver().setup();
     }
 
