@@ -44,6 +44,6 @@ public class CardOrderTest {
         driver.findElement(By.cssSelector(".button")).click();
 
         WebElement success = driver.findElement(By.cssSelector("[data-test-id='order-success']"));
-        assertEquals("Ваша заявка успешно отправлена!", success.getText().trim());
+        assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", success.getText().trim());
     }
 }
